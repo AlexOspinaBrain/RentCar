@@ -11,9 +11,9 @@ body
 #container
 {
     width: 70%;
-    padding: 1em;
+    padding: 1cm;
     text-align: left;
-    border: 1px solid white;
+    border: 5px solid white;
     margin: 0 auto;
 }
 
@@ -21,4 +21,20 @@ body
 {
     font-size: 20px;
 
+}
+
+#cabecera
+{
+    background: blue;
+    box-shadow: 0px 2px 20px 0px black;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5cm;
+}
+#cabecera #tagline
+{
+    padding: 0 0 0 1cm;
+    font-weight: normal;
+    font-size: 0.8cm;
 }
