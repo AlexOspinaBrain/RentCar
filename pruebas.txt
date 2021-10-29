@@ -2,6 +2,4 @@ Alex 40 años
 Pruebas
 Git
 
-Aprendiendo un monton, jejeje.
-
-Nueva linea confundida
+Se perdio conff pero ahora esto es nuevo
