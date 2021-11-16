@@ -8,20 +8,39 @@
         "docs": "https://www.drupal.org/docs/user_guide/en/index.html",
         "chat": "https://www.drupal.org/node/314178"
     },
-    "repositories": [
-        {
+    "repositories": {
+        "0": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
-    ],
+    },
     "require": {
+        "algolia/places": "*",
+        "ckeditor/autogrow": "*",
+        "ckeditor/codemirror": "*",
+        "ckeditor/fakeobjects": "*",
+        "ckeditor/image": "*",
+        "ckeditor/link": "*",
+        "codemirror/codemirror": "*",
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^3.0",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-project-message": "^9.2",
         "drupal/core-recommended": "^9.2",
+        "drupal/eu_cookie_compliance": "^1.19",
+        "drupal/metatag": "^1.16",
         "drupal/webform": "^6.0",
-        "drupal/webform_content_creator": "^2.0"
+        "drupal/webform_content_creator": "^2.0",
+        "jquery/inputmask": "*",
+        "jquery/intl-tel-input": "*",
+        "jquery/rateit": "*",
+        "jquery/select2": "*",
+        "jquery/textcounter": "*",
+        "jquery/timepicker": "*",
+        "progress-tracker/progress-tracker": "*",
+        "signature_pad/signature_pad": "*",
+        "tabby/tabby": "*",
+        "tippyjs/6.x": "*"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -87,5 +106,8 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
+    },
+    "require-dev": {
+        "drush/drush": "^10.6"
     }
 }
