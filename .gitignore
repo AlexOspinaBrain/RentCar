@@ -39,6 +39,7 @@ web/.eslintrc.json
 web/.gitattributes
 web/.ht.router.php
 web/.htaccessservie
+web/.gitignore
 web/autoload.php
 web/example.gitignore
 web/index.php
