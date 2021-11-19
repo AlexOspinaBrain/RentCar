@@ -37,7 +37,7 @@ web/.eslintignore
 web/.eslintrc.json
 web/.gitattributes
 web/.ht.router.php
-web/.htaccess
+web/.htaccessservie
 web/autoload.php
 web/example.gitignore
 web/index.php
