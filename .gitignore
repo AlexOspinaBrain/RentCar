@@ -24,6 +24,7 @@ web/sites/simpletest
 # Ignore drupal core (if not versioning drupal sources)
 web/core
 vendor
+web/modules/contrib
 web/modules/README.txt
 web/profiles/README.txt
 web/themes/README.txt
@@ -47,3 +48,11 @@ web/README.txt
 web/robots.txt
 web/update.php
 web/web.config
+
+.csslintrc
+.editorconfig
+.eslintignore
+.eslintrc.json
+.gitattributes
+.ht.router.php
+.htaccessservie
